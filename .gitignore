@@ -9,6 +9,7 @@ node_modules
 *.swp
 .DS_Store
 ecosystem.config.js
+yarn.lock
 
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
