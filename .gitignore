@@ -8,7 +8,7 @@ node_modules
 *.bak
 *.swp
 .DS_Store
-ecosystem.config.js
+#ecosystem.config.js
 yarn.lock
 
 [Tt]est[Rr]esult*/
