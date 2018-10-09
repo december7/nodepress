@@ -21,7 +21,7 @@
     "marked": "^0.4.0",
     "mongoose": "^5.2.5",
     "mongoose-auto-increment": "^5.0.1",
-    "mongoose-paginate": "git+ssh://git@github.com:surmon-china/mongoose-paginate.git",
+    "mongoose-paginate": "https://github.com/december7/mongoose-paginate.git",
     "nodemailer": "^4.6.7",
     "qn": "^1.3.0",
     "redis": "^2.8.0",

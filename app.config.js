@@ -30,13 +30,13 @@ exports.ALIYUN = {
 };
 
 exports.EMAIL = {
-	account: argv.email_account || 'your email address like : admin@surmon.me',
-	password: argv.email_password || 'your email password'
+	account: argv.email_account || 'qiekenol@qq.com' || 'your email address like : admin@surmon.me',
+	password: argv.email_password || 'rtcxdnxlcsecbdbj' || 'your email password'
 };
 
 exports.AKISMET = {
-	key: argv.akismet_key || 'your akismet Key',
-	blog: argv.akismet_blog || 'your akismet blog site, like: https://surmon.me'
+	key: argv.akismet_key || 'cf2e12d44950' || 'your akismet Key',
+	blog: argv.akismet_blog || 'https://qiekenol.wordpress.com/' || 'your akismet blog site, like: https://surmon.me'
 };
 
 exports.APP = {
