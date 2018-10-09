@@ -22,7 +22,7 @@ module.exports = {
       user : 'root',
       host : '47.52.148.116',
       ref  : 'origin/master',
-      repo : 'https://github.com/december7/nodepress.git',
+      repo : 'https://github.com/december7/surmon.me.git',
       path : '/keven_blog/www',
       'post-deploy' : 'yarn install && pm2 start ecosystem.config.js --env production'
     }
