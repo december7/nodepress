@@ -41,8 +41,8 @@ const routes = app => {
 		// 如果是生产环境，需要验证用户来源渠道，防止非正常请求
 		if (isProduction) {
 			const { origin, referer } = req.headers;
-			const originVerified = (!origin	|| origin.includes('surmon.me')) && 
-														 (!referer || referer.includes('surmon.me'))
+			const originVerified = (!origin	|| origin.includes('150.109.63.133')) && 
+														 (!referer || referer.includes('150.109.63.133'))
 			if (!originVerified) {
 				res.status(403).jsonp({ code: 0, message: '来者何人！' })
 				return false;
