@@ -18,7 +18,7 @@ const routes = app => {
 		const isProduction = Object.is(process.env.NODE_ENV, 'production');
 
 		// Set Header
-		const allowedOrigins = ['https://surmon.me', 'https://admin.surmon.me'];
+		const allowedOrigins = ['http://150.109.63.133:8080', 'https://surmon.me', 'https://admin.surmon.me'];
 		const origin = req.headers.origin || '';
 		if (!isProduction) {
 			allowedOrigins.push(origin);
