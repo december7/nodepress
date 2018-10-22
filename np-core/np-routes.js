@@ -18,7 +18,7 @@ const routes = app => {
 		const isProduction = Object.is(process.env.NODE_ENV, 'production');
 
 		// Set Header
-		const allowedOrigins = ['http://qiekenol.com', 'http://admin.qiekenol.com', 'http://api.qiekenol.com'];
+		const allowedOrigins = ['https://qiekenol.com', 'https://admin.qiekenol.com', 'https://api.qiekenol.com'];
 		const origin = req.headers.origin || '';
 		if (!isProduction) {
 			allowedOrigins.push(origin);
