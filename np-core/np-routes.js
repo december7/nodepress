@@ -40,13 +40,13 @@ const routes = app => {
 
 		// 如果是生产环境，需要验证用户来源渠道，防止非正常请求
 		if (isProduction) {
-			const { origin, referer } = req.headers;
-			const originVerified = (!origin	|| origin.includes('qiekenol.com')) && 
-														 (!referer || referer.includes('qiekenol.com'))
-			if (!originVerified) {
-				res.status(403).jsonp({ code: 0, message: '来者何人！' })
-				return false;
-			};
+			// const { origin, referer } = req.headers;
+			// const originVerified = (!origin	|| origin.includes('qiekenol.com')) && 
+			// 											 (!referer || referer.includes('qiekenol.com'))
+			// if (!originVerified) {
+			// 	res.status(403).jsonp({ code: 0, message: '来者何人！' })
+			// 	return false;
+			// };
 		};
 
 		// 排除 auth 的 post 请求 && 评论的 post 请求 && like 请求
